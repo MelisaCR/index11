@@ -1,6 +1,6 @@
 body
 {
-	background-color: #D6DAFC;
+	background: url("fondo.png");
 }
 
 /*BANNER*/
@@ -14,10 +14,10 @@ body
 /*BOTONES*/
 
 #boton1{
-	margin-left: 42%;
+	margin-left: 10%;
 	font-size: 250%;
 	color: black;
-	font-family: cream cake;
+	font-family: cursive;
 	text-decoration: none;
 }
 
@@ -26,10 +26,12 @@ body
 }
 
 #boton2{
-	margin-left: 2%;
+	margin-left: 40%;
+	margin-top: 2%;
+	position: absolute;
 	color: black;
-	font-size: 250%;
-	font-family: cream cake;
+	font-size: 230%;
+	font-family: cursive;
 	text-decoration: none;
 }
 
@@ -39,14 +41,6 @@ body
 }
 
 
-/*BIENVENIDO*/
-#bienv{
-	width: 78.7%;
-	height: 95%;
-	margin-left: 12%;
-	margin-top: 2%;
-	position: absolute;
-}
 
 /*SOBRE MI*/
 
@@ -60,10 +54,10 @@ body
 
 #sobremi{
 	background: url("minfo.jpeg");
-	width: 78.7%;
+	width: 80%;
 	height: 95%;
-	margin-left: 12%;
-	margin-top: 2%;
+	margin-left: 10%;
+	margin-top: 8%;
 	position: absolute;
 	background-repeat: no-repeat;
 
@@ -74,13 +68,13 @@ body
 #entregasperiodo{
 	list-style: none;
 	text-align: center;
-	font-family: cream cake;
+	font-family: cursive;
 	padding: 5%;
-	margin-top: -10%;
+	margin-top: -5%;
 }
 
 #periodo1{
-	font-size: 500%;
+	font-size: 330%;
 	list-style: none;
 	position: absolute;
 	background: url("moldeboton.jpeg");
@@ -88,7 +82,7 @@ body
 	width: 24%; 
 	height: 24%;
 	margin-left: 5%;
-	padding: 0%;
+	padding: 1%;
 
 }
 
@@ -102,14 +96,14 @@ body
 
 #periodo2{
 	list-style: none;
-	font-size: 500%;
+	font-size: 330%;
 	background: url("moldeboton.jpeg");
 	background-repeat: no-repeat;
 	margin-left: 33%;
 	position: absolute;
 	width: 24%; 
 	height: 24%;
-	padding: 0%;
+	padding: 1%;
 }
 
 #periodo2:hover{
@@ -122,14 +116,14 @@ body
 
 #periodo3{
 	list-style: none;
-	font-size: 500%;
+	font-size: 330%;
 	background: url("moldeboton.jpeg");
 	background-repeat: no-repeat;
 	width: 24%; 
 	height: 24%;
 	margin-left: 60%;
 	position: absolute;
-	padding: 0%;
+	padding: 1%;
 }
 
 #periodo3:hover{
@@ -151,7 +145,7 @@ body
 	
 	color: black; 
 	text-decoration: none;
-	font-size: 70%;
+	font-size: 50%;
 	text-align: center;
 	position: absolute;
 	display: none;
@@ -170,7 +164,7 @@ body
 	color: black;
 	list-style: none;
 	text-decoration: none;
-	font-size: 70%;
+	font-size: 50%;
 	text-align: center;
 	position: absolute;
 	display: none;
@@ -194,7 +188,7 @@ body
 	color: black;
 	list-style: none;
 	text-decoration: none;
-	font-size: 70%;	
+	font-size: 50%;	
 
 	text-align: center;
 	position: absolute;
